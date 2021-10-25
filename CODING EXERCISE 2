@@ -1,0 +1,23 @@
+package numericalData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double Sem1 =3.58;
+		double Sem2 =3.42;
+		double CGPA;
+		String matrik = "MS2016105638";
+		String str= "Johor Matriculation College";
+		String name= "Anuarul Irfan Bin Mohd Sofian";
+		CGPA= (Sem1+Sem2)/2;
+		System.out.println("Name: "+name);
+		System.out.println("College: "+str);
+		System.out.println("No. Matrik: "+matrik);
+		System.out.println();
+		System.out.println("CGPA Semester 1 Sesi 2020/2021: "+Sem1);
+		System.out.println("CGPA Semester 2 Sesi 2020/2021: "+Sem2);
+		System.out.printf("Total Semester CGPA: %.2f",CGPA);
+	}
+
+}
